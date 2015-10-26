@@ -1,0 +1,18 @@
+<?php
+
+class WPBakeryShortCode_VC_Gitem_Post_Date extends WPBakeryShortCode_VC_Gitem_Post_Data {
+	protected function getFileName() {
+		return 'vc_gitem_post_data';
+	}
+
+	/**
+	 * Get data_source attribute value
+	 *
+	 * @param array $atts - list of shortcode attributes
+	 *
+	 * @return string
+	 */
+	public function getDataSource( array $atts ) {
+		return isset( $atts['time'] ) && 'yes' === $atts['time'] ? 'post_datetime' : 'post_date';
+	}
+}

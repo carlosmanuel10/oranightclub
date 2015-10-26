@@ -1,0 +1,71 @@
+/*
+Theme Name: The7
+Theme URI: http://dream-theme.com/
+Author: The7
+
+Description: The7 is perfectly scalable, performance and SEO optimized, responsive, retina ready multipurpose WordPress theme. It will fit every site – big or small. From huge corporate portals to studio or personal sites – The7 will become a great foundation for your next project! - <p><strong>Got a question?</strong> view our <a href="https://customerpanel.me/support-forums/">Support Forums</a>.</p>
+Version: 4.4.4
+
+
+Tags: one-column, two-columns, right-sidebar, flexible-width, custom-menu, editor-style, featured-images, post-formats, rtl-language-support, sticky-post, translation-ready
+*/
+
+.blog .dt-format-gallery .dt-format-gallery-coll.full,
+.archive .dt-format-gallery .dt-format-gallery-coll.full,
+.search .dt-format-gallery .dt-format-gallery-coll.full
+{
+	display: none;
+}
+
+
+.wp-caption-text,
+.sticky,
+.gallery-caption,
+.bypostauthor {}
+
+/***********************************NEW STYLES******************************/
+
+.about-title
+{
+	margin-bottom: 20px!important;
+}
+
+.djs-socials .soc-ico a, .socials-footer .soc-ico a
+{
+	background-color:transparent;
+}
+
+.socials-footer .soc-ico a
+{
+	margin-right:20px;
+}
+
+.djs-socials .soc-ico a .icon
+{
+	fill: #9e9e9e;
+	width: 30px;
+	height: 30px;
+}
+
+.djs-socials .soc-ico a .icon:hover
+{
+	fill: #9e9e9e;
+}
+
+.socials-footer .soc-ico a .icon
+{
+	fill: #000;
+	width: 40px;
+	height: 40px;
+}
+
+.socials-footer .soc-ico a .icon:hover
+{
+	fill: #000;
+}
+
+.socials-footer .soc-ico
+{
+	text-align:center;
+}
+****************************************************************************/

@@ -1,0 +1,82 @@
+.menu_text {
+	border: none;
+	padding: 15px 30px;
+}
+.menu_text,.menu_img{
+    cursor: pointer;
+}
+.overlay nav a {
+	text-decoration: none;
+	outline: none;
+}
+
+#trigger-overlay{
+    position: fixed;
+    top: 15px;
+}
+
+
+.menu-icon {
+  position: relative;
+  top: 100px;
+  display: block;
+  width: 4em;
+  height: 4em;
+  cursor: pointer;
+  /* to center */
+  margin: 0 auto;
+  float: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  z-index: 100;
+}
+
+.menu-icon > span {
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 100%;
+  height: 0.5em;
+  margin-top: -0.5em;
+  background-color: #e74c3c;
+  border-radius: 3px;
+}
+
+.menu-icon > span:before,
+.menu-icon > span:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #e74c3c;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s;
+	        transition: all 0.3s;
+}
+
+.menu-icon > span:before {
+  -webkit-transform: translateY(-1em);
+	        transform: translateY(-1em);
+}
+
+.menu-icon > span:after {
+  -webkit-transform: translateY(1em);
+	        transform: translateY(1em);
+}
+
+
+
+.menu-icon.open {
+  -webkit-transform: rotate(45deg);
+	        transform: rotate(45deg);
+}
+
+.menu-icon.open > span:before {
+  -webkit-transform: rotate(90deg);
+	        transform: rotate(90deg);
+}
+
+.menu-icon.open > span:after {
+  -webkit-transform: rotate(90deg);
+	        transform: rotate(90deg);
+}
